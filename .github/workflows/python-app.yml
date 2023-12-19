@@ -20,5 +20,5 @@ jobs:
           pip install -r requirements.txt
       - name: run python
         env:
-          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          WEBHOOK_URL: ${{ secrets }}
         run: python send.py
