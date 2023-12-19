@@ -20,5 +20,5 @@ jobs:
           pip install -r requirements.txt
       - name: run python
         env:
-          webhook_url: ${{ secrets.WEBHOOK_URL }} # secretsに登録した環境変数
-        run: python send.py # pythonフォルダに格納したXXX.pyを実行
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+        run: python send.py

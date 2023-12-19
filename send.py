@@ -3,7 +3,7 @@ import os
 import requests
 
 msg = "hello:)"
-url = os.environ.get("webhook_url")
+url = os.environ.get("WEBHOOK_URL")
 data = {"content": msg}
 
 
