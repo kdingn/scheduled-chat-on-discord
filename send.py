@@ -9,6 +9,7 @@ data = {"content": msg}
 
 def main():
     print(url)
+    print("wwwwwwwwwwwwwwwwwwww")
     requests.post(url, data)
 
 
