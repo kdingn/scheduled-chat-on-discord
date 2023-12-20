@@ -1,5 +1,5 @@
 ## 📌What is this?
-This is scripts for scheduled chat on discord by github actions.
+This is script for scheduled chat on discord by github actions.
 
 ## 📍How to use
 Set your bot's url as `WEBHOOK_URL` on
